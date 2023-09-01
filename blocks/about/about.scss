@@ -1,0 +1,18 @@
+.about {
+    &__img {
+        display: block;
+        width: 100%;
+
+        img {
+            margin-bottom: 40px;
+        }
+    }
+
+    &__text {
+        margin-bottom: 70px;
+        max-width: 980px;
+    }
+
+}
+
+@import "../../styles/main.css"

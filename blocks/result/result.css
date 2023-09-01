@@ -1,0 +1,19 @@
+@import "../../styles/main.css";
+.results {
+  margin-bottom: 40px;
+}
+.results__title {
+  font-size: 30px;
+  line-height: 39.6px;
+  font-weight: 400;
+  color: #333;
+  font-family: "Arsenal", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.results__text {
+  line-height: 26.4px;
+  font-weight: 400;
+  font-size: 16px;
+  max-width: 980px;
+}/*# sourceMappingURL=result.css.map */

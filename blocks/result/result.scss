@@ -1,0 +1,17 @@
+@import "../../styles/variables.scss";
+
+.results {
+    margin-bottom: 40px;
+
+    &__title {
+        @include h1;
+        margin-bottom: 16px;
+    }
+
+    &__text {
+        @include text;
+        max-width: 980px;
+    }
+}
+
+@import "../../styles/main.css";
