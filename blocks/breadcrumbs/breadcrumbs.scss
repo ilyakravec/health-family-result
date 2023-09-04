@@ -6,25 +6,26 @@
 
     &__inner {
         display: flex;
-        column-gap: 24px;
+        column-gap: 8px;
 
         &__link {
             color: $gray;
 
-            position: relative;
+            &:hover {
+                color: $gray;
+            }
 
-            &:first-child {
-                &::after {
-                    display: block;
-                    content: "/";
+            &:last-child {
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+            }
 
-                    position: absolute;
-                    top: 0;
-                    left: 55px;
-                }
+            &:not(:first-child):before {
+                content: "/";
+                display: inline-block;
+                margin-right: 8px;
             }
         }
     }
 }
-
-@import "../../styles/main.css";

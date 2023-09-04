@@ -49,6 +49,8 @@ $line-height: 20.3px;
     line-height: 22.5px;
 
     border-bottom: 1px solid rgba(124, 103, 87, 0.2);
+
+    pointer-events: none;
 }
 
 @mixin shadow {

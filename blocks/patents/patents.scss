@@ -26,6 +26,7 @@
 
             &__link {
                 @include link;
+                cursor: pointer;
             }
         }
     }
@@ -54,5 +55,3 @@
         @include h1-small-size;
     }
 }
-
-@import "../../styles/main.css";

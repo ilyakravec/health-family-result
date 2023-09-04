@@ -1,20 +1,24 @@
-@import "../../styles/main.css";
 .breadcrumbs {
   margin: 32px 0 24px;
 }
 .breadcrumbs__inner {
   display: flex;
-  -moz-column-gap: 24px;
-       column-gap: 24px;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
 }
 .breadcrumbs__inner__link {
   color: #817b77;
-  position: relative;
 }
-.breadcrumbs__inner__link:first-child::after {
-  display: block;
+.breadcrumbs__inner__link:hover {
+  color: #817b77;
+}
+.breadcrumbs__inner__link:last-child {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.breadcrumbs__inner__link:not(:first-child):before {
   content: "/";
-  position: absolute;
-  top: 0;
-  left: 55px;
+  display: inline-block;
+  margin-right: 8px;
 }/*# sourceMappingURL=breadcrumbs.css.map */
