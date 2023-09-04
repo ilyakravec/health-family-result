@@ -13,3 +13,13 @@
         max-width: 980px;
     }
 }
+
+
+@media (max-width:576px) {
+    .results {
+        &__title {
+            @include h1-small-size;
+            margin-bottom: 16px;
+        }
+    }
+}
