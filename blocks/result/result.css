@@ -5,15 +5,15 @@
   font-size: 30px;
   line-height: 39.6px;
   font-weight: 400;
-  color: #333;
   font-family: "Arsenal", sans-serif;
   text-transform: uppercase;
   margin-bottom: 16px;
 }
 .results__text {
-  line-height: 26.4px;
-  font-weight: 400;
+  font-family: "Onest", sans-serif;
   font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
   max-width: 980px;
 }
 

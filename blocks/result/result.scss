@@ -9,7 +9,7 @@
     }
 
     &__text {
-        @include text;
+        @include secondary-text;
         max-width: 980px;
     }
 }

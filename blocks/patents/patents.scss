@@ -15,12 +15,12 @@
 
         &__item {
             padding: 16px;
-            @include shadow;
+            @include main-shadow;
 
             &__date {
                 font-weight: 600;
                 font-family: $secondary-font;
-                color: $secondary;
+                color: $brand-color-dark;
                 margin-bottom: 16px;
             }
 
@@ -54,4 +54,5 @@
     .patents__title {
         @include h1-small-size;
     }
+
 }
